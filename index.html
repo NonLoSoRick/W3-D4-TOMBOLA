@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tombola</title>
+    <link rel="stylesheet" href="./asset/style.css" />
+  </head>
+  <body>
+    <div class="contenitore">
+      <main>
+        <h1 class="tabella">Tabellone di gioco</h1>
+        <div class="main-board m-auto board"></div>
+        <button id="randomNumb" class="button">Fai uscire un numero</button>
+        <input type="number" id="mynumber" class="input" value="1" />
+        <h5 id="randNum"></h5>
+      </main>
+    </div>
+    <style>
+      table {
+        border-collapse: collapse;
+        margin: 20px;
+      }
+      td {
+        border: 1px solid black;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+      }
+    </style>
+    <script src="./asset/Tombolone.js"></script>
+  </body>
+</html>
